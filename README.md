@@ -24,8 +24,8 @@ Ensure you have the following installed:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/discord-bot-vote-tracker.git
-cd discord-bot-vote-tracker
+git clone https://github.com/Hisace/Topgg-vote-tracker.git
+cd Topgg-vote-tracker
 ```
 
 ### 2. Install dependencies
