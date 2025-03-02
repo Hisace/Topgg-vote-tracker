@@ -74,7 +74,7 @@ Whenever a user votes, an embed message is sent in the configured vote channel, 
 - Vote type
 - Current vote streak
 - Total votes
-- Time until the next vote is allowed
+- Time until the next vote is allowed  
 ![Screenshot 2025-03-02 135818](https://github.com/user-attachments/assets/e4b1df3c-6297-4b97-8d23-bbf315ab1380)
 
 ## Contributing
