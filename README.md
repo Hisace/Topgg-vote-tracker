@@ -18,8 +18,7 @@ This repository provides a way to track your Discord bot votes on [Top.gg](https
 ### Prerequisites
 Ensure you have the following installed:
 - [Node.js](https://nodejs.org/) (v16 or later)
-- [MySQL](https://www.mysql.com/)
-- A Discord bot with the necessary permissions
+- A Discord bot with the necessary permissions (MESSAGE_CONTENT intents needed)
 - A [Top.gg webhook](https://docs.top.gg/resources/webhooks/) set up
 
 ### 1. Clone the repository
