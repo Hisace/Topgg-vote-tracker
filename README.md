@@ -34,16 +34,19 @@ npm install
 ```
 
 ### 3. Configure environment variables
-Create a `.env` file in the project root and add the following variables:
+Rename the `.env.example` file to `.env` and change the variables to your config
 ```env
-TOKEN=your_discord_bot_token
-TOPGG_WEBHOOK_AUTH=your_topgg_webhook_secret
-DB_NAME=your_database_name
+TOKEN=your_bot_token
+
+DB_HOST=your_database_host
+DB_PORT=your_database_port
 DB_USER=your_database_username
 DB_PASS=your_database_password
-DB_HOST=your_database_host
+DB_NAME=your_database_name
+
+TOPGG_WEBHOOK_AUTH=your_topgg_webhook_auth
+PORT=your_port
 VOTE_CHANNEL_ID=your_vote_channel_id
-PORT=3000
 ```
 
 ### 4. Set up the database
@@ -72,6 +75,7 @@ Whenever a user votes, an embed message is sent in the configured vote channel, 
 - Current vote streak
 - Total votes
 - Time until the next vote is allowed
+![Screenshot 2025-03-02 135818](https://github.com/user-attachments/assets/e4b1df3c-6297-4b97-8d23-bbf315ab1380)
 
 ## Contributing
 Feel free to fork this repository, submit issues, or contribute improvements!
